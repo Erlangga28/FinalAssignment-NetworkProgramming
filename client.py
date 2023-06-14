@@ -19,45 +19,45 @@ def call_rpc(function_name, *args):
 def main():
     while True:
         print("\n--- File System Client Menu ---")
-        print("1. Create a file")
-        print("2. Read a file")
-        print("3. Update a file")
-        print("4. Delete a file")
-        print("5. List all files")
-        print("0. Exit")
-        choice = input("Enter your choice: ")
+        print("create_file")
+        print("read_file")
+        print("update_file")
+        print("delete_file")
+        print("list_file")
+        print("exit")
+        choice = input("Enter your command: ")
 
-        if choice == "1":
+        if choice == "create_file":
             filename = input("Enter the filename: ")
             content = input("Enter the file content: ")
             response = call_rpc("create_file", filename, content)
             print_response(response)
 
-        elif choice == "2":
+        elif choice == "read_file":
             filename = input("Enter the filename: ")
             response = call_rpc("read_file", filename)
             print_response(response)
 
-        elif choice == "3":
+        elif choice == "update_file":
             filename = input("Enter the filename: ")
             content = input("Enter the new file content: ")
             response = call_rpc("update_file", filename, content)
             print_response(response)
 
-        elif choice == "4":
+        elif choice == "delete_file":
             filename = input("Enter the filename: ")
             response = call_rpc("delete_file", filename)
             print_response(response)
 
-        elif choice == "5":
+        elif choice == "list_file":
             response = call_rpc("list_files")
             print_response(response)
 
-        elif choice == "0":
+        elif choice == "exit":
             break
 
         else:
-            print("Invalid choice. Please try again.")
+            print("Invalid command. Please try again.")
 
 if __name__ == '__main__':
     main()

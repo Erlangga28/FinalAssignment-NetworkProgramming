@@ -42,5 +42,5 @@ server = SimpleXMLRPCServer(("localhost", 5001))
 server.register_instance(FileSystemServer())
 
 # Start the server
-print("Server listening on port 8000...")
+print("Server started")
 server.serve_forever()
