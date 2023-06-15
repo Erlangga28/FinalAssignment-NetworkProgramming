@@ -55,9 +55,9 @@ used to disconnect the connection between server and client
 ![image](https://github.com/Erlangga28/FinalAssignment-NetworkProgramming/assets/81525850/ab06b8be-7a8c-4186-a58b-a95f069641b8)
 this piece of codes are made to handle if there is an error occur between server and client
 
-## ini apa lang
-![image](https://github.com/Erlangga28/FinalAssignment-NetworkProgramming/assets/81525850/7db6db67-25d5-4126-8334-fd1a06fbed50)
 
+![image](https://github.com/Erlangga28/FinalAssignment-NetworkProgramming/assets/81525850/7db6db67-25d5-4126-8334-fd1a06fbed50)
+a way to store code that should only run when your file is executed as a script
 
 
 
