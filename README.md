@@ -42,7 +42,7 @@
 > server.py
 ![image](https://github.com/Erlangga28/FinalAssignment-NetworkProgramming/assets/81525850/d448d11f-1ee6-4834-b18a-edd5537b8364)
 > client.py
-there is been a slight change in the code because Mr. Hudan told us how to display the list as a list and not one line result
+> there is been a slight change in the code because Mr. Hudan told us how to display the list as a list and not one line result
 
 ## Create Server
 ![image](https://github.com/Erlangga28/FinalAssignment-NetworkProgramming/assets/81525850/1748672c-90f6-43a2-bffc-252e38f8e82e)
